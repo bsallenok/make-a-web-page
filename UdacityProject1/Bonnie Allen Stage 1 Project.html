@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--Project Stage 0-->
+<html>
+<head>
+  <title> Bonnie's Notes </title>
+  <link rel="stylesheet" Type="text/css" href="BonnieP1style.css">
+</head>
+  <body>
+    <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#lesson-1-1">How the Web Works</a></li>
+          <li><a href="#lesson-1-2">Hypertext Markup Language</a></li>
+          <li><a href="#lesson-1-3">Why Programmers are so Smart</a></li>
+          <li><a href="#lesson-1-4">Programmers Vocabulary</a></li>
+          <li><a href="#lesson-1-5">Udacity Image</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">Developer Tools Inline and Block</a></li>
+          <li><a href="#lesson-2-2">HTML Structuring and CSS Styling</a></li>
+          <li><a href="#lesson-2-3">Text Editors for Programming</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Adding Style to HTML Structure with CSS</a>
+        <ul>
+          <li><a href="#lesson-3-1">Adding Style with CSS</a></li>
+          <li><a href="#lesson-3-2">The Box Model and Avoiding Repetition with CSS</a></li>
+          <li><a href="#lesson-3-3">Code-Test-Refine</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+    <h1>Important Concepts</h1>
+    <div class="lesson">
+      <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+      <div class="concept" id="lesson-1-1">
+      <div class="concept-title">
+          How the Web Works
+        </div>
+        <div class="concept-description">
+          <p>
+            A user opens a browser on their computer such as Firefox and requests information
+            from a URL such as <a href="http://WWW.Udacity.com">Udacity.com.</a>  The set of rules used to traverse the world wide web is called <span class="bold">HTTP</span> or <span class="italic">Hyper Transfer Protocol</span> and the information sought might be a webpage containing text, videos, images etc. The webpage displayed is written in a language the computer understands called <span class="bold">HTML</span> or <span class="italic">Hypertext Markup Language</span>
+            <span class="bold">HTTP</span> finds the <span class="bold">HTML</span> document on the correct server (another type of computer that 
+            stores information) and sends it back where the browser 
+            interprets and displays 
+            the information on the user's screen.
+          </p>
+        </div>
+      </div>
+        <div class="concept" id="lesson-1-2">
+        <div class="concept-title">
+          Hypertext Markup language
+        </div>
+        <div class="concept-description">
+          <p>
+            Hypertext Markup Language or <span class="italic">HTML</span> for short
+            is <span class="bold">code</span> programmers write in so that 
+            the computer understands.  The sentence: "I'm <span class="bold">learning</span> to code!"--for example--requires a special "code" to tell the computer to make the letters in the word "learning" appear in <span class="bold">bold</span> type.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-3">
+        <div class="concept-title">
+          Why Programmers are so Smart
+        </div>
+        <div class="concept-description">
+          <p>
+            Programmers have to be smart because computers are stupid!  Programmers must write code in the correct syntax because computers translate the code literally; this can be frustrating but with extreme focus--powerful. Programmers are smarter than computers but they cannot remember all the rules!  If you forget a rule--just look it up!  
+          </p>
+        </div>
+      </div>
+     <div class="concept" id="lesson-1-4">
+        <div class="concept-title">
+          Programmer's Vocabulary
+        </div>
+        <div class="concept-description">
+          <p>
+            In programming language there are <span class="bold">tag, element</span>  and <span class="bold">attribute</span>definitions and rules.  In HTML, the <span class="bold">text</span> is <span class="italic">what you see</span> and the <span class="bold">markup</span> is <span class="italic">what it looks like.</span> A tag was used in the previous sentence to make the letters in the word "text" and "markup" appear <span class="bold">bold</span>; it requires an opening tag and a closing tag to create the appearance.  The word "text" is called the <span class="bold">content</span>  and the entire length of this information end to end is called an <span class="bold">element.</span> 
+          </p>
+          <p>
+            As mentioned there are <span class="bold">attributes</span> within elements.  You can look them up on the internet but let me share another example here because <span class="bold">coding is fun!</span> Some tags require an "attribute" like the "img" tag requires an opening tag, an attribute: "src", a link to the image, an "alt" attribute containing text to desribe the image; this is for two reasons 1) in case the link is broken and 2) for the blind.  What no closing tag?  "img" is a <span class="bold">void</span>  tag; and therefore, does not require a closing tag.
+          </p>
+        </div>
+      </div>
+      <div class="container" id="lesson-1-5" style="display: flex;">
+        <div>
+         <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="hipmunk!">
+       </div>
+        <article>
+          <h3>Udacity Image:</h3>
+            <p>This image was borrowed from Udacity Intro to Programming lesson one to illustrate an image displayed using the <span class="bold">img</span> tag.
+            </p>
+         </article>
+      </div>
+    </div>
+    <div class="lesson">
+      <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+      <div class="concept" id="lesson-2-1">
+        <div class="concept-title">
+          Developer Tools Inline and Block
+        </div>
+        <div class="concept-description">
+          <p>
+            HTML elements are "inline" or "block."  The difference between <span class="bold">inline</span> and <span class="bold">block</span> is that block elements like "p" for paragraph form an <span>invisible box</span> around the content inside of them. 
+          </p>
+        </div> 
+      </div> 
+      <div class="concept" id="lesson-2-2">
+        <div class="concept-title">
+          HTML Structuring and CSS Styling
+        </div>
+        <div class="concept-description">
+          <p>
+            HTML and <span class="bold">CSS</span> Cascading Style Sheets are two of the many languages used to create web pages.  HTML develops the classification or structure and CSS provides the style or look and feel of a web page.  When programmers talk about <span class="bold">DOM</span> Document Object Model, they are talking about the <span class="italic">tree-like</span> structure of a web page. Beginner web page developers should start with big boxes, move to small boxes and literally sketch out their web design with a pen or pencil. Programmers define boxes or containers around their content with <span class="bold">div</span> tags. The <span class="bold">div</span> tag is one of the most important tags used to organize HTML into big and small boxes needed to organize and structure HTML. They use "span" and other tags to help with the styling of their content.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-2-3">
+        <div class="concept-title">
+          Text Editors for Programming
+        </div>
+        <div class="concept-description">
+          <p>
+            Text editors like <span class="bold">Scratchpad, Codepen</span>  and <span class="bold">Sublime</span> make writing code easier.  For example, Scratchpad is good for beginners because what's been coded is immediately displayed in a split screen view. Sublime anticipates the tag you need with a pop-up selection box triggered by one or two key-strokes. 
+          </p>
+        </div>  
+      </div>
+    </div>
+    <div class="lesson">
+      <h2 id="lesson-3">Adding Style to HTML Structure with CSS</h2> 
+      <div class="concept" id="lesson-3-1">
+        <div class="concept-title">
+          Adding Style with CSS
+        </div>  
+        <div class="concept-description">   
+          <p>
+            Programmers use CSS to add style to their HTML structure by
+            using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference.</a> Programmers learn possible values and properties of attributes they need to convert their mockup to code. <span class="bold">Cascading</span> means that rules are applied not only to the elements they directly match, but also to all of those elements' children. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-3-2">
+        <div class="concept-title">
+          The Box Model and Avoiding Repetition with CSS
+        </div>
+        <div class="concept-description">  
+          <p>
+            Programmers define boxes around their content with "div" tags but its important to remember to use standards. Using standards while positioning boxes will apply the proper semantics, allow all browsers to read your code and any programmer to edit your code.  In addition, avoiding repetition in your code styling will facilitate changes and avoid errors. Standard and consistent use of the <span class="bold">class</span> attribute and CSS Reference will make good practice needed to refine your ability.
+          </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-3-3">
+        <div class="concept-title">
+          Code-Test-Refine
+        </div>
+        <div class="concept-description">  
+          <p>
+            Perfect practice calls for <span class="italic">code, test, and refine</span> behavior: look for natural boxes in your design; look for repeated styles and semantic elements; write your HTML; apply styles from Biggest to smallest (Thanks Jacques!); and finally continue to fix your code. These five behaviors will make for perfect practice on your road to fluency!
+          </p>
+        </div>
+      </div> 
+    </div> 
+  </body>
+</html>
